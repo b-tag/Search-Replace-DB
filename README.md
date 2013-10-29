@@ -16,8 +16,8 @@ If you find a problem let us know in the issues area and if you can improve the 
 
 1. Run the CLI script from the command line like so:
    ```
-   ./searchreplacedb2cli.php --host localhost --user root --database test --pass "pass" 
-      --charset utf8 --search "findMe" --replace "replaceMe"
+   ./searchreplacedb2cli.php --host localhost --user root --pass "pass" --database test 
+    --table-prefix wp_ --charset utf8 --search "findMe" --replace "replaceMe"
    ```
 2. use the `--dry-run` flag to do a dry run without searching/replacing
 
